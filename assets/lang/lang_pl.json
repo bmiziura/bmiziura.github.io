@@ -1,0 +1,35 @@
+{
+  "navigation": {
+    "links.homepage": "STRONA GŁÓWNA",
+    "links.skills": "UMIEJĘTNOŚCI",
+    "links.projects": "PROJEKTY",
+    "links.about-me": "O MNIE",
+    "links.contact": "KONTAKT",
+
+    "button.resume": "Pobierz CV"
+  },
+
+  "hero": {
+    "hero.greeting": "Cześć,",
+    "hero.heading": "Jestem Bartosz",
+    "hero.subheading": "Front-End & Java Developer",
+
+    "hero.text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, dolor quod ex dolores odio eius, obcaecati sed voluptates alias voluptatem pariatur recusandae eveniet nemo beatae quas iste nostrum cumque unde?",
+
+    "hero.button.contact": "Napisz do mnie!",
+    "hero.button.projects": "Sprawdź Projekty"
+  },
+
+  "skills-section": {
+    "skills.header": "Moje Umiejętności"
+  },
+
+  "projects-section": {
+    "projects.header": "Moje Projekty"
+  },
+
+  "project-olx": {
+    "project.olx.header": "Klon OLX.pl",
+    "project.olx.description": "Klon OLX.pl to projekt strony napisanej w TypeScript'cie przy użyciu Next.JS (React)."
+  }
+}
