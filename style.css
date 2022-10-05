@@ -908,6 +908,13 @@ button {
   padding-block: 0.2rem;
 }
 
+.footer__links > *:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+
+  cursor: pointer;
+}
+
 .footer__description {
   color: var(--primary-color-accent);
 
