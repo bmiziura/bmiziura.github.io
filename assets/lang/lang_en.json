@@ -14,10 +14,16 @@
     "hero.heading": "I'm Bartosz",
     "hero.subheading": "Front-End & Java Developer",
 
-    "hero.text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, dolor quod ex dolores odio eius, obcaecati sed voluptates alias voluptatem pariatur recusandae eveniet nemo beatae quas iste nostrum cumque unde?",
+    "hero.text": "I create modern websites and web applications using React. I try to approach each project individually, so that the project I make are as well done as possible.",
 
     "hero.button.contact": "Contact me!",
     "hero.button.projects": "My Projects"
+  },
+
+  "swiper": {
+    "swiper.header": "New Projects",
+    "swiper.project.olx.header": "OLX Clone",
+    "swiper.project.olx.description": "OLX Clone is a web application project written in TypeScript with Next.js (React). Project contains home page, authentication, user panel, posting a new offer and offer view page."
   },
 
   "skills-section": {
@@ -30,6 +36,13 @@
 
   "project-olx": {
     "project.olx.header": "OLX Clone",
-    "project.olx.description": "OLX Clone is a project written in typescript using Next.JS (React)."
+    "project.olx.description": "OLX Clone is a web application project written in TypeScript with Next.js (React). Project contains home page, authentication, user panel, posting a new offer and offer view page."
+  },
+
+  "footer": {
+    "footer.my-projects.header": "My Projects",
+    "footer.my-projects.olx": "OLX Clone",
+
+    "footer.about-me": "I create modern websites and web applications in React. I try to approach each project individually, so that the project is well done and the client is satisfied."
   }
 }

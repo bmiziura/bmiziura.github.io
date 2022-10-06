@@ -14,7 +14,7 @@
     "hero.heading": "Jestem Bartosz",
     "hero.subheading": "Front-End & Java Developer",
 
-    "hero.text": "Moją pasją jest programowanie. Od zawsze interesowały mnie nowe technologieNa codzień tworzę aplikację webowe używając Reacta i Javy. jgihsdfbgihsdbfgih sbdgihbsdfhigbsdihfgbsdihfbg hisdbfgi sdifbgi",
+    "hero.text": "Na codzień tworzę strony internetowe oraz aplikacje webowe przy użyciu Reacta. Do każdego projektu staram się podejść indywidualnie, aby zrobione przeze mnie projekty były jak najlepiej wykonane.",
 
     "hero.button.contact": "Napisz do mnie!",
     "hero.button.projects": "Sprawdź Projekty"
@@ -28,8 +28,21 @@
     "projects.header": "Moje Projekty"
   },
 
+  "swiper": {
+    "swiper.header": "Najnowsze Projekty",
+    "swiper.project.olx.header": "Klon OLX.pl",
+    "swiper.project.olx.description": "Klon OLX.pl to projekt strony napisanej w TypeScript'cie przy użyciu Next.JS (React)."
+  },
+
   "project-olx": {
     "project.olx.header": "Klon OLX.pl",
-    "project.olx.description": "Klon OLX.pl to projekt strony napisanej w TypeScript'cie przy użyciu Next.JS (React)."
+    "project.olx.description": "Klon OLX.pl to projekt aplikacji webowej napisanej w TypeScriptcie przy użyciu Next.JS (React). Projekt zawiera stronę główną, logowanie, panel użytkownika, tworzenie nowych ogłoszeń i stronę ogłoszenia."
+  },
+
+  "footer": {
+    "footer.my-projects.header": "Moje Projekty",
+    "footer.my-projects.olx": "Klon OLX.pl",
+
+    "footer.about-me": "Na codzień tworzę strony internetowe oraz aplikacje w Reactcie. Do każdego projektu staram się podejść indywidualnie, aby projekt został dobrze wykonany, a klient był zadowolony."
   }
 }

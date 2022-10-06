@@ -26,7 +26,7 @@
   --navbar-mobile-container-width: 50vw;
   --navbar-mobile-container-bg-color: var(--bg-secondary-color);
 
-  --hero-text-color: #333;
+  --hero-text-color: var(--primary-color-accent);
 
   --skills-card-bg-color: #fff;
   --skills-card-image-color: #fff;
@@ -56,7 +56,7 @@
 
   --navbar-mobile-container-bg-color: var(--bg-secondary-color);
 
-  --hero-text-color: rgb(223, 223, 223);
+  --hero-text-color: var(--primary-color-accent);
 
   --swiper-pagination-bullet-inactive-color: white;
 
@@ -635,9 +635,17 @@ button {
 }
 
 /* Swiper */
-
 .swiper {
   flex-basis: 100%;
+}
+
+.swiper__header {
+  font-size: 2rem;
+  font-weight: bold;
+
+  transform: translateY(5rem);
+
+  text-align: center;
 }
 
 .swiper-button-prev {
@@ -649,8 +657,28 @@ button {
 }
 
 .project-card {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
   height: 400px;
   background-color: transparent;
+
+  padding-inline: 5rem;
+
+  gap: 1.5rem;
+}
+
+.project-card p {
+  color: var(--primary-color-accent);
+}
+
+.project-card__buttons {
+  display: flex;
+
+  gap: 1rem;
 }
 
 @media screen and (max-width: 85em) {
@@ -658,7 +686,7 @@ button {
     justify-content: center;
   }
 
-  .swiper {
+  .swiper__container {
     display: none;
   }
 }
