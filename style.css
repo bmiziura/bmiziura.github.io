@@ -809,6 +809,8 @@ button {
   justify-content: space-evenly;
 
   align-items: center;
+
+  gap: 2rem;
 }
 
 .projects-list li > * {
@@ -881,6 +883,9 @@ button {
   height: 2rem;
 
   fill: white;
+}
+
+.project__video {
 }
 
 @media screen and (max-width: 70em) {
