@@ -55,6 +55,7 @@
   "footer": {
     "footer.my-projects.header": "My Projects",
     "footer.my-projects.olx": "OLX Clone",
+    "footer.my-projects.blog": "React Blog with Firebase",
 
     "footer.about-me": "I create modern websites and web applications in React. I try to approach each project individually, so that the project is well done and the client is satisfied."
   }

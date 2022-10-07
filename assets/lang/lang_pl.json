@@ -55,6 +55,7 @@
   "footer": {
     "footer.my-projects.header": "Moje Projekty",
     "footer.my-projects.olx": "Klon OLX.pl",
+    "footer.my-projects.blog": "Blog w Reactcie z Firebase",
 
     "footer.about-me": "Na codzień tworzę strony internetowe oraz aplikacje w Reactcie. Do każdego projektu staram się podejść indywidualnie, aby projekt został dobrze wykonany, a klient był zadowolony."
   }
