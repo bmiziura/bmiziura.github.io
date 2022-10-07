@@ -883,10 +883,7 @@ button {
   fill: white;
 }
 
-.project__image {
-  display: grid;
-
-  place-items: center;
+.project__video {
 }
 
 @media screen and (max-width: 70em) {
