@@ -31,7 +31,10 @@
   "swiper": {
     "swiper.header": "Najnowsze Projekty",
     "swiper.project.olx.header": "Klon OLX.pl",
-    "swiper.project.olx.description": "Klon OLX.pl to projekt strony napisanej w TypeScript'cie przy użyciu Next.JS (React)."
+    "swiper.project.olx.description": "Klon OLX.pl to projekt strony napisanej w TypeScript'cie przy użyciu Next.JS (React).",
+
+    "swiper.project.blog.header": "Blog w Reactcie z Firebase",
+    "swiper.project.blog.description": "Aplikacja webowa napisana w TypeScriptcie przy użyciu Reacta i Firebase. Projekt zawiera stronę główną z listą postów i wyszukiwarką postów, logowaniem, tworzeniem nowego posta oraz usuwaniem stworzonego posta."
   },
 
   "project-olx": {

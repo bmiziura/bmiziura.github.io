@@ -23,7 +23,10 @@
   "swiper": {
     "swiper.header": "New Projects",
     "swiper.project.olx.header": "OLX Clone",
-    "swiper.project.olx.description": "OLX Clone is a web application project written in TypeScript with Next.js (React). Project contains home page, authentication, user panel, posting a new offer and offer view page."
+    "swiper.project.olx.description": "OLX Clone is a web application project written in TypeScript with Next.js (React). Project contains home page, authentication, user panel, posting a new offer and offer view page.",
+
+    "swiper.project.blog.header": "React Blog with Firebase",
+    "swiper.project.blog.description": "React Blog is a web application project written in TypeScript with React and Firebase. Project contains homepage, authentication, creating a new post and deleting created post and searchbar."
   },
 
   "skills-section": {
