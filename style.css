@@ -625,8 +625,6 @@ button {
 @media screen and (max-width: 60em) {
   .hero__container {
     justify-content: center;
-    /* flex-direction: column-reverse; */
-    /* align-items: center; */
   }
 
   .hero__headline {
@@ -683,10 +681,10 @@ button {
 
 @media screen and (max-width: 85em) {
   .hero__container {
-    justify-content: center;
+    display: block;
   }
 
-  .swiper__container {
+  .swiper {
     display: none;
   }
 }
@@ -883,15 +881,12 @@ button {
   fill: white;
 }
 
-.project__video {
-}
-
 @media screen and (max-width: 70em) {
   .project__meta {
     align-items: center;
     text-align: center;
   }
-  .project__image {
+  .project__video {
     display: none;
   }
 }
