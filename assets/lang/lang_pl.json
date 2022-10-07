@@ -6,6 +6,11 @@
     "links.about-me": "O MNIE",
     "links.contact": "KONTAKT",
 
+    "links.projects.hoverable.header": "Moje projekty",
+
+    "links.projects.hoverable.olx": "Klon OLX.pl",
+    "links.projects.hoverable.blog": "Blog w Reactcie z Firebase",
+
     "button.resume": "Pobierz CV"
   },
 

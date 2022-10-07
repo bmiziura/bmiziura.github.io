@@ -6,6 +6,11 @@
     "links.about-me": "ABOUT ME",
     "links.contact": "CONTACT",
 
+    "links.projects.hoverable.header": "My Projects",
+
+    "links.projects.hoverable.olx": "OLX Clone",
+    "links.projects.hoverable.blog": "React Blog with Firebase",
+
     "button.resume": "Resume"
   },
 
