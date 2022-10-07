@@ -203,10 +203,6 @@ button {
 }
 
 /* Header */
-.header {
-  /* padding-top: var(--section-padding); */
-}
-
 .navbar {
   margin-bottom: var(--section-padding);
   height: var(--navbar-height);
@@ -451,6 +447,10 @@ button {
 }
 
 @media screen and (max-width: 60em) {
+  body {
+    margin: 0;
+  }
+
   .navbar__mobile-btn {
     display: block;
   }
@@ -623,12 +623,12 @@ button {
 }
 
 @media screen and (max-width: 60em) {
-  .hero__container {
-    justify-content: center;
-  }
-
   .hero__headline {
     max-width: max-content;
+  }
+
+  .hero-section {
+    padding-top: calc(var(--section-padding) / 2);
   }
 }
 
@@ -681,7 +681,9 @@ button {
 
 @media screen and (max-width: 85em) {
   .hero__container {
-    display: block;
+    display: flex;
+
+    justify-content: center;
   }
 
   .swiper {
