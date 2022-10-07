@@ -204,7 +204,7 @@ button {
 
 /* Header */
 .header {
-  padding-top: var(--section-padding);
+  /* padding-top: var(--section-padding); */
 }
 
 .navbar {
