@@ -797,6 +797,8 @@ button {
   width: 100%;
 
   gap: 8rem;
+
+  margin-bottom: 1rem;
 }
 
 .projects-list > li {
@@ -807,6 +809,12 @@ button {
   justify-content: space-evenly;
 
   align-items: center;
+
+  background-color: var(--bg-primary-color);
+
+  padding: 1rem;
+
+  border-radius: 7px;
 }
 
 .projects-list li > * {

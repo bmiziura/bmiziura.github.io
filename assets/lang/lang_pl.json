@@ -39,6 +39,11 @@
     "project.olx.description": "Klon OLX.pl to projekt aplikacji webowej napisanej w TypeScriptcie przy użyciu Next.JS (React). Projekt zawiera stronę główną, logowanie, panel użytkownika, tworzenie nowych ogłoszeń i stronę ogłoszenia."
   },
 
+  "project-blog": {
+    "project.blog.header": "Blog w Reactcie z Firebase",
+    "project.blog.description": "Aplikacja webowa napisana w TypeScriptcie przy użyciu Reacta i Firebase. Projekt zawiera stronę główną z listą postów i wyszukiwarką postów, logowaniem, tworzeniem nowego posta oraz usuwaniem stworzonego posta."
+  },
+
   "footer": {
     "footer.my-projects.header": "Moje Projekty",
     "footer.my-projects.olx": "Klon OLX.pl",
