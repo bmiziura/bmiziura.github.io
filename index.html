@@ -26,10 +26,7 @@
     <nav id="navbar" class="navbar">
       <div class="container">
         <div class="navbar__inner">
-          <!-- <a href="#"
-            ><img src="/assets/logo.webp" alt="Logo" class="navbar__logo"
-          /></a> -->
-          <a href="#">Bartosz LOGO</a>
+          <a href="#" aria-label="Logo (Strona główna)">Bartosz LOGO</a>
           <div
             class="navbar__container-bg"
             id="navbar-mobile-container-bg"
@@ -37,17 +34,25 @@
           <div class="navbar__container" id="navbar-mobile-container">
             <ul class="navbar__links">
               <li>
-                <a href="#" id="links.homepage" class="navbar__link"
+                <a
+                  href="#"
+                  id="links.homepage"
+                  class="navbar__link"
+                  aria-label="Strona główna"
                   >HOME PAGE</a
                 >
               </li>
               <li>
-                <a href="#skills" id="links.skills" class="navbar__link"
+                <a
+                  href="#skills"
+                  id="links.skills"
+                  class="navbar__link"
+                  aria-label="Umiejętności"
                   >SKILLS</a
                 >
               </li>
               <li class="link-projects">
-                <a href="#projects"
+                <a href="#projects" aria-label="Projekty"
                   ><span id="links.projects" class="navbar__link">PROJECTS</span
                   ><svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +75,13 @@
                       <div class="projects-hoverable__category">
                         <h3>Projects - REACT</h3>
                         <ul>
-                          <li><a href="#project-olx">Klon OLX.pl</a></li>
+                          <li>
+                            <a
+                              href="#project-olx"
+                              aria-label="Projekt: Klon Olx"
+                              >Klon OLX.pl</a
+                            >
+                          </li>
                         </ul>
                       </div>
                     </div>
@@ -93,14 +104,8 @@
                   class="navbar__language"
                 />
               </div>
-              <a href="assets/bartosz-miziura-cv.pdf">
-                <button
-                  class="btn btn--resume"
-                  id="button.resume"
-                  name="Resume"
-                >
-                  RESUME
-                </button></a
+              <a href="assets/bartosz-miziura-cv.pdf" aria-label="Sprawdź CV">
+                <div class="btn btn--resume" id="button.resume">RESUME</div></a
               >
             </div>
           </div>
@@ -132,22 +137,22 @@
               <span id="hero.greeting">Hi,</span>
               <h1 id="hero.heading">I'm Bartosz</h1>
             </div>
-            <h2 class="hero__subheading" id="hero.subheading">
+            <p class="hero__subheading" id="hero.subheading">
               Front-End & Java Developer
-            </h2>
+            </p>
             <p class="hero__text" id="hero.text">
               I create modern websites and web applications using React. I try
               to approach each project individually, so that the project I make
               are as well done as possible.
             </p>
             <div class="hero__buttons">
-              <a href="mailto:bartosz.miziura@o2.pl"
-                ><button class="btn" id="hero.button.contact" name="Contact">
-                  Contact me!
-                </button>
+              <a
+                href="mailto:bartosz.miziura@o2.pl"
+                aria-label="Napisz do mnie! (Email)"
+                ><div class="btn" id="hero.button.contact">Contact me!</div>
               </a>
-              <a href="#projects"
-                ><button
+              <a href="#projects" aria-label="Moje Projekty"
+                ><div
                   class="btn btn--transparent hero__btn--projects"
                   name="Projects"
                 >
@@ -165,7 +170,7 @@
                       stroke-linejoin="round"
                       d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
                     />
-                  </svg></button
+                  </svg></div
               ></a>
             </div>
           </div>
@@ -186,19 +191,15 @@
                   </p>
 
                   <div class="project-card__buttons">
-                    <a href="https://olx-clone-nextjs.vercel.app/"
-                      ><button
-                        class="btn project__btn--demo"
-                        name="View Demo: Olx Clone"
-                      >
-                        Demo
-                      </button></a
+                    <a
+                      href="https://olx-clone-nextjs.vercel.app/"
+                      aria-label="Sprawdź Demo: Klon Olx"
+                      ><div class="btn project__btn--demo">Demo</div></a
                     >
-                    <a href="https://github.com/bmiziura/olx-clone"
-                      ><button
-                        class="btn btn--no-shadow project__btn--github"
-                        name="Show on Github: Olx Clone"
-                      >
+                    <a
+                      href="https://github.com/bmiziura/olx-clone"
+                      aria-label="Zobacz na githubie: Klon Olx"
+                      ><div class="btn btn--no-shadow project__btn--github">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -208,7 +209,7 @@
                           <path
                             d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
                           />
-                        </svg></button
+                        </svg></div
                     ></a>
                   </div>
                 </div>
@@ -226,19 +227,15 @@
                   </p>
 
                   <div class="project-card__buttons">
-                    <a href="https://react-firebase-blog-lyart.vercel.app/"
-                      ><button
-                        class="btn project__btn--demo"
-                        name="View Demo: React Blog with Firebase"
-                      >
-                        Demo
-                      </button></a
+                    <a
+                      href="https://react-firebase-blog-lyart.vercel.app/"
+                      aria-label="Sprawdź Demo: Blog na Reactcie z Firebase"
+                      ><div class="btn project__btn--demo">Demo</div></a
                     >
-                    <a href="https://github.com/bmiziura/react-firebase-blog"
-                      ><button
-                        class="btn btn--no-shadow project__btn--github"
-                        name="Show on Github: React Blog with Firebase"
-                      >
+                    <a
+                      href="https://github.com/bmiziura/react-firebase-blog"
+                      aria-label="Zobacz na githubie: Blog na Reactcie z Firebase"
+                      ><div class="btn btn--no-shadow project__btn--github">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -248,7 +245,7 @@
                           <path
                             d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
                           />
-                        </svg></button
+                        </svg></div
                     ></a>
                   </div>
                 </div>
@@ -304,7 +301,7 @@
       </section>
       <section id="skills" class="page-section">
         <div class="container">
-          <h1 class="section__header" id="skills.header">Moje Umiejętności</h1>
+          <h2 class="section__header" id="skills.header">Moje Umiejętności</h2>
           <ul class="skills__list">
             <li class="skills__card">
               <img
@@ -427,13 +424,13 @@
       </section>
       <section id="projects" class="page-section page-section--secondary">
         <div class="projects-container container">
-          <h1 class="section__header" id="projects.header">Moje Projekty</h1>
+          <h2 class="section__header" id="projects.header">Moje Projekty</h2>
           <ul class="projects-list">
             <li id="project-olx">
               <div class="project__meta">
-                <h1 class="project__header" id="project.olx.header">
+                <h3 class="project__header" id="project.olx.header">
                   OLX Clone
-                </h1>
+                </h3>
                 <p class="project__description" id="project.olx.description">
                   OLX Clone is a project written in typescript using Next.JS.
                 </p>
@@ -446,19 +443,15 @@
                 </ul>
 
                 <div class="project__buttons">
-                  <a href="https://olx-clone-nextjs.vercel.app/"
-                    ><button
-                      class="btn project__btn--demo"
-                      name="View Demo of OLX Clone"
-                    >
-                      Demo
-                    </button></a
+                  <a
+                    href="https://olx-clone-nextjs.vercel.app/"
+                    aria-label="Sprawdź demo: Klon OLX"
+                    ><div class="btn project__btn--demo">Demo</div></a
                   >
-                  <a href="https://github.com/bmiziura/olx-clone"
-                    ><button
-                      class="btn btn--no-shadow project__btn--github"
-                      name="Show on Github: OLX Clone"
-                    >
+                  <a
+                    href="https://github.com/bmiziura/olx-clone"
+                    aria-label="Zobacz na githubie: Klon OLX"
+                    ><div class="btn btn--no-shadow project__btn--github">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -468,7 +461,7 @@
                         <path
                           d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
                         />
-                      </svg></button
+                      </svg></div
                   ></a>
                 </div>
               </div>
@@ -476,9 +469,9 @@
             </li>
             <li id="project-blog">
               <div class="project__meta">
-                <h1 class="project__header" id="project.blog.header">
+                <h3 class="project__header" id="project.blog.header">
                   React Blog with Firebase
-                </h1>
+                </h3>
                 <p class="project__description" id="project.blog.description">
                   React Blog is a web application project written in TypeScript
                   with React and Firebase. Project contains homepage,
@@ -493,19 +486,15 @@
                 </ul>
 
                 <div class="project__buttons">
-                  <a href="https://react-firebase-blog-lyart.vercel.app/"
-                    ><button
-                      class="btn project__btn--demo"
-                      name="View Demo of React Blog with Firebase"
-                    >
-                      Demo
-                    </button></a
+                  <a
+                    href="https://react-firebase-blog-lyart.vercel.app/"
+                    aria-label="Sprawdź demo: Blog"
+                    ><div class="btn project__btn--demo">Demo</div></a
                   >
-                  <a href="https://github.com/bmiziura/react-firebase-blog"
-                    ><button
-                      class="btn btn--no-shadow project__btn--github"
-                      name="Show on Github: React Blog with Firebase"
-                    >
+                  <a
+                    href="https://github.com/bmiziura/react-firebase-blog"
+                    aria-label="Zobacz na githubie: Blog"
+                    ><div class="btn btn--no-shadow project__btn--github">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -515,7 +504,7 @@
                         <path
                           d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
                         />
-                      </svg></button
+                      </svg></div
                   ></a>
                 </div>
               </div>
@@ -532,12 +521,17 @@
         <div class="container footer__wrapper">
           <div>Logo</div>
           <div>
-            <h3 class="footer__header" id="footer.my-projects.header">
+            <h2 class="footer__header" id="footer.my-projects.header">
               My Projects
-            </h3>
+            </h2>
             <ul class="footer__links">
               <li>
-                <a href="#project-olx" id="footer.my-projects.olx">OLX Clone</a>
+                <a
+                  href="#project-olx"
+                  id="footer.my-projects.olx"
+                  aria-label="Przejdź do Klon OLX"
+                  >OLX Clone</a
+                >
               </li>
             </ul>
           </div>
@@ -552,7 +546,7 @@
             </ul>
           </div> -->
           <div>
-            <h3 class="footer__header">About me</h3>
+            <h2 class="footer__header">About me</h2>
             <p class="footer__description" id="footer.about-me">
               I create modern websites and web applications in React. I try to
               approach each project individually, so that the project is well
