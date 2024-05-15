@@ -19,7 +19,7 @@
     "hero.heading": "I'm Bartosz",
     "hero.subheading": "Front-End & Java Developer",
 
-    "hero.text": "I create modern websites and web applications using React. I try to approach each project individually, so that the projects I make are as well done as possible.",
+    "hero.text": "I create modern websites and web applications using React. I try to approach each project individually, so that the projects I make are the best as possible.",
 
     "hero.button.contact": "Contact me!",
     "hero.button.projects": "My Projects"
@@ -57,6 +57,6 @@
     "footer.my-projects.olx": "OLX Clone",
     "footer.my-projects.blog": "React Blog with Firebase",
 
-    "footer.about-me": "I create modern websites and web applications in React. I try to approach each project individually, so that the project is well done and the client is satisfied."
+    "footer.about-me": "I create modern websites and web applications in React. I try to approach each project individually, so that the projects I make are the best as possible."
   }
 }
