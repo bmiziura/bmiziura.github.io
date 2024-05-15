@@ -19,7 +19,7 @@
     "hero.heading": "Jestem Bartosz",
     "hero.subheading": "Front-End & Java Developer",
 
-    "hero.text": "Na codzień tworzę strony internetowe oraz aplikacje webowe przy użyciu Reacta. Do każdego projektu staram się podejść indywidualnie, aby zrobione przeze mnie projekty były jak najlepiej wykonane.",
+    "hero.text": "Na codzień tworzę strony internetowe oraz aplikacje webowe przy użyciu Reacta. Do każdego projektu staram się podejść indywidualnie, aby były one dobrze wykonane.",
 
     "hero.button.contact": "Napisz do mnie!",
     "hero.button.projects": "Sprawdź Projekty"
@@ -57,6 +57,6 @@
     "footer.my-projects.olx": "Klon OLX.pl",
     "footer.my-projects.blog": "Blog w Reactcie z Firebase",
 
-    "footer.about-me": "Na codzień tworzę strony internetowe oraz aplikacje w Reactcie. Do każdego projektu staram się podejść indywidualnie, aby projekt został dobrze wykonany, a klient był zadowolony."
+    "footer.about-me": "Na codzień tworzę strony internetowe oraz aplikacje w Reactcie. Do każdego projektu staram się podejść indywidualnie, aby były one dobrze wykonane."
   }
 }
